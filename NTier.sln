@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33513.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTier", "NTier.csproj", "{201EB406-6DF7-4114-BA4B-5500AC181B98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTier.DataAccess", "..\NTier.DataAccess\NTier.DataAccess.csproj", "{A98A28CD-573D-403E-9ABF-02DB530660FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{201EB406-6DF7-4114-BA4B-5500AC181B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201EB406-6DF7-4114-BA4B-5500AC181B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201EB406-6DF7-4114-BA4B-5500AC181B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201EB406-6DF7-4114-BA4B-5500AC181B98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A98A28CD-573D-403E-9ABF-02DB530660FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A98A28CD-573D-403E-9ABF-02DB530660FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A98A28CD-573D-403E-9ABF-02DB530660FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A98A28CD-573D-403E-9ABF-02DB530660FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9FAD92D-7653-4804-A2FD-5090553CBCBE}
+	EndGlobalSection
+EndGlobal
