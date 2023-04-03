@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
-using NTier.Data;
+using NTier.DataAccess.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

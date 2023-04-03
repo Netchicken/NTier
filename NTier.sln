@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33513.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTier", "NTier.csproj", "{201EB406-6DF7-4114-BA4B-5500AC181B98}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTierWeb", "NTierWeb.csproj", "{201EB406-6DF7-4114-BA4B-5500AC181B98}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTier.DataAccess", "..\NTier.DataAccess\NTier.DataAccess.csproj", "{A98A28CD-573D-403E-9ABF-02DB530660FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTier.Models", "..\NTier.Models\NTier.Models.csproj", "{9DC21774-1D07-4E84-9CA7-1D01FAAEAD3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTier.Utilities", "..\NTier.Utilities\NTier.Utilities.csproj", "{9E43AEB1-D453-4A25-A2BA-9ABFF07CF057}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{A98A28CD-573D-403E-9ABF-02DB530660FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A98A28CD-573D-403E-9ABF-02DB530660FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A98A28CD-573D-403E-9ABF-02DB530660FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DC21774-1D07-4E84-9CA7-1D01FAAEAD3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC21774-1D07-4E84-9CA7-1D01FAAEAD3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC21774-1D07-4E84-9CA7-1D01FAAEAD3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC21774-1D07-4E84-9CA7-1D01FAAEAD3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E43AEB1-D453-4A25-A2BA-9ABFF07CF057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E43AEB1-D453-4A25-A2BA-9ABFF07CF057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E43AEB1-D453-4A25-A2BA-9ABFF07CF057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E43AEB1-D453-4A25-A2BA-9ABFF07CF057}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
